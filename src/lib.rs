@@ -13,4 +13,5 @@ mod interview {
 
 mod search {
     mod search1;
+    mod search2;
 }
