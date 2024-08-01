@@ -9,6 +9,7 @@ mod interview {
     mod array4;
     mod array5;
     mod array6;
+    mod array7;
 }
 
 mod search {
