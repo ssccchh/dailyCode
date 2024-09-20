@@ -10,6 +10,9 @@ mod interview {
     mod array5;
     mod array6;
     mod array7;
+    mod array8;
+    mod array9;
+    mod db70;
     mod l283;
 }
 
@@ -18,6 +21,4 @@ mod search {
     mod search2;
 }
 
-fn main() {
-    Solution::rotate(&mut vec![1, 2, 3, 4, 5, 6, 7], 3)
-}
+fn main() {}
