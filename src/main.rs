@@ -14,6 +14,7 @@ mod interview {
     mod array9;
     mod db70;
     mod is_palindrome_125;
+    mod l167;
     mod l283;
     mod l392;
     mod p15;
