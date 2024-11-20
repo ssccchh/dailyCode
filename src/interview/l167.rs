@@ -39,10 +39,25 @@ use crate::Solution;
 impl Solution {
     pub fn two_sum(numbers: Vec<i32>, target: i32) -> Vec<i32> {
         let mut iter = numbers.iter();
+        let mut result: Vec<i32> = vec![1, numbers.len() as i32];
 
-        let first = iter.next().unwrap_or(&0);
-        let last = iter.next_back().unwrap_or(&0);
+        let mut first = iter.next();
+        let mut last = iter.next_back();
 
-        while *first + *last == target {}
+        while first.is_some() && last.is_some() {
+            let first_value = first.unwrap();
+            let last_value = last.unwrap();
+            if first_value + last_value > target {
+                last = iter.next_back();
+                result[1] -= 1;
+            } else if first_value + last_value < target {
+                first = iter.next();
+                result[0] += 1;
+            } else {
+                break;
+            }
+        }
+
+        result
     }
 }

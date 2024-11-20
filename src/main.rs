@@ -14,6 +14,7 @@ mod interview {
     mod array9;
     mod db70;
     mod is_palindrome_125;
+    mod l11;
     mod l167;
     mod l283;
     mod l392;
@@ -25,4 +26,6 @@ mod search {
     mod search2;
 }
 
-fn main() {}
+fn main() {
+    Solution::two_sum(vec![-1, 0], -1);
+}
