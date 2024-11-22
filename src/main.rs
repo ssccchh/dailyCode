@@ -27,5 +27,5 @@ mod search {
 }
 
 fn main() {
-    Solution::three_sum(vec![-2, 0, 1, 1, 2]);
+    Solution::max_profit2(vec![7, 6, 4, 3, 1]);
 }

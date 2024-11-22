@@ -31,5 +31,16 @@
 use crate::Solution;
 
 impl Solution {
-    // pub fn max_profit2(prices: Vec<i32>) -> i32 {}
+    pub fn max_profit2(prices: Vec<i32>) -> i32 {
+        let mut profit = 0;
+        let mut owned = prices[0];
+        for price in prices {
+            if price > owned {
+                profit = price - owned + profit;
+            }
+            owned = price;
+        }
+
+        profit
+    }
 }
