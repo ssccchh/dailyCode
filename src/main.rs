@@ -3,6 +3,8 @@ mod list_node {
     mod l19;
 }
 mod interview {
+    mod a45;
+    mod a55;
     mod array1;
     mod array2;
     mod array3;
@@ -27,5 +29,7 @@ mod search {
 }
 
 fn main() {
-    Solution::max_profit2(vec![7, 6, 4, 3, 1]);
+    let result = Solution::jump(vec![2, 3, 0, 1, 4]);
+
+    println!("{}", result)
 }
