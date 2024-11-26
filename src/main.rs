@@ -29,7 +29,7 @@ mod search {
 }
 
 fn main() {
-    let result = Solution::jump(vec![2, 3, 0, 1, 4]);
+    let result = Solution::jump(vec![7, 0, 9, 6, 9, 6, 1, 7, 9, 0, 1, 2, 9, 0, 3]);
 
     println!("{}", result)
 }
