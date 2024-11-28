@@ -3,6 +3,7 @@ mod list_node {
     mod l19;
 }
 mod interview {
+    mod a274;
     mod a45;
     mod a55;
     mod array1;
@@ -29,7 +30,7 @@ mod search {
 }
 
 fn main() {
-    let result = Solution::jump(vec![7, 0, 9, 6, 9, 6, 1, 7, 9, 0, 1, 2, 9, 0, 3]);
+    let result = Solution::h_index(vec![1, 3, 1]);
 
     println!("{}", result)
 }
