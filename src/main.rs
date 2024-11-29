@@ -4,6 +4,7 @@ mod list_node {
 }
 mod interview {
     mod a274;
+    mod a380;
     mod a45;
     mod a55;
     mod array1;
@@ -30,7 +31,5 @@ mod search {
 }
 
 fn main() {
-    let result = Solution::h_index(vec![1, 3, 1]);
-
-    println!("{}", result)
+    let result = Solution::run();
 }
