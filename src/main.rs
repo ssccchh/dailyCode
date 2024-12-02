@@ -3,6 +3,7 @@ mod list_node {
     mod l19;
 }
 mod interview {
+    mod a238;
     mod a274;
     mod a380;
     mod a45;
@@ -30,6 +31,14 @@ mod search {
     mod search2;
 }
 
+mod sliding_window {
+    mod s1343;
+    mod s1456;
+    mod s2090;
+    mod s643;
+}
+
 fn main() {
-    let result = Solution::run();
+    let result = Solution::get_averages(vec![7, 4, 3, 9, 1, 8, 5, 2, 6], 3);
+    println!("{:?}", result);
 }
