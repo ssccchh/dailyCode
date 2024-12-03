@@ -32,13 +32,19 @@ mod search {
 }
 
 mod sliding_window {
+    mod s1052;
     mod s1343;
     mod s1456;
     mod s2090;
+    mod s2379;
     mod s643;
 }
 
 fn main() {
-    let result = Solution::get_averages(vec![7, 4, 3, 9, 1, 8, 5, 2, 6], 3);
+    let result = Solution::max_satisfied(
+        vec![1, 0, 1, 2, 1, 1, 7, 5],
+        vec![0, 1, 0, 1, 0, 1, 0, 1],
+        3,
+    );
     println!("{:?}", result);
 }
