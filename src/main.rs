@@ -35,16 +35,16 @@ mod sliding_window {
     mod s1052;
     mod s1343;
     mod s1456;
+    mod s1461;
+    mod s1493;
     mod s2090;
     mod s2379;
+    mod s3;
+    mod s3090;
     mod s643;
 }
 
 fn main() {
-    let result = Solution::max_satisfied(
-        vec![1, 0, 1, 2, 1, 1, 7, 5],
-        vec![0, 1, 0, 1, 0, 1, 0, 1],
-        3,
-    );
+    let result = Solution::longest_subarray(vec![0]);
     println!("{:?}", result);
 }
