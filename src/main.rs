@@ -35,20 +35,23 @@ mod sliding_window {
     mod s1052;
     mod s1208;
     mod s1343;
+    mod s1358;
     mod s1456;
     mod s1461;
     mod s1493;
     mod s2090;
     mod s2379;
     mod s2730;
+    mod s2962;
     mod s3;
     mod s3090;
     mod s643;
+    mod s713;
     mod s76;
     mod s904;
 }
 
 fn main() {
-    let result = Solution::total_fruit(vec![0, 1, 2, 2]);
+    let result = Solution::number_of_substrings(String::from("abcabc"));
     println!("{:?}", result);
 }
