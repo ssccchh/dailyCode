@@ -52,6 +52,6 @@ mod sliding_window {
 }
 
 fn main() {
-    let result = Solution::number_of_substrings(String::from("abcabc"));
+    let result = Solution::min_window(String::from("ADOBECODEBANC"), String::from("ABC"));
     println!("{:?}", result);
 }
