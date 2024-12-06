@@ -40,15 +40,22 @@ mod sliding_window {
     mod s1461;
     mod s1493;
     mod s2090;
+    mod s2302;
     mod s2379;
     mod s2730;
     mod s2962;
     mod s3;
     mod s3090;
+    mod s344;
     mod s643;
     mod s713;
     mod s76;
     mod s904;
+}
+
+mod data {
+    mod d1;
+    mod d219;
 }
 
 fn main() {
