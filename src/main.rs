@@ -15,7 +15,6 @@ mod interview {
     mod array4;
     mod array5;
     mod array6;
-    mod array8;
     mod array9;
     mod db70;
     mod is_palindrome_125;
@@ -55,10 +54,15 @@ mod sliding_window {
 
 mod data {
     mod d1;
+    mod d121;
+    mod d1512;
     mod d219;
+    mod d2909;
+    mod d454;
+    mod d6;
 }
 
 fn main() {
-    let result = Solution::min_window(String::from("ADOBECODEBANC"), String::from("ABC"));
+    let result = Solution::max_profit(vec![1, 2, 3, 1, 1, 3]);
     println!("{:?}", result);
 }
