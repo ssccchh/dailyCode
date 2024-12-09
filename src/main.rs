@@ -58,6 +58,7 @@ mod data {
     mod d1512;
     mod d219;
     mod d2909;
+    mod d303;
     mod d454;
     mod d6;
 }
