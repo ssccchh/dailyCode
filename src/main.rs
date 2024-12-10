@@ -60,6 +60,7 @@ mod data {
     mod d2909;
     mod d303;
     mod d454;
+    mod d53;
     mod d6;
 }
 
