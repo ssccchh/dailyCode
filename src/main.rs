@@ -61,6 +61,7 @@ mod data {
     mod d303;
     mod d454;
     mod d53;
+    mod d560;
     mod d6;
 }
 
