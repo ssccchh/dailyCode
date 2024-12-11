@@ -19,7 +19,9 @@ mod interview {
     mod db70;
     mod i134;
     mod i135;
+    mod i14;
     mod i42;
+    mod i58;
     mod is_palindrome_125;
     mod l11;
     mod l167;
