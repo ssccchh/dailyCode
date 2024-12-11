@@ -20,6 +20,7 @@ mod interview {
     mod i134;
     mod i135;
     mod i14;
+    mod i151;
     mod i42;
     mod i58;
     mod is_palindrome_125;
