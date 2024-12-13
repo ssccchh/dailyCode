@@ -17,12 +17,14 @@ mod interview {
     mod array6;
     mod array9;
     mod db70;
+    mod i13;
     mod i134;
     mod i135;
     mod i14;
     mod i151;
     mod i42;
     mod i58;
+    mod i64;
     mod is_palindrome_125;
     mod l11;
     mod l167;
