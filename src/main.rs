@@ -22,9 +22,14 @@ mod interview {
     mod i135;
     mod i14;
     mod i151;
+    mod i289;
+    mod i30;
+    mod i36;
     mod i42;
+    mod i48;
+    mod i54;
     mod i58;
-    mod i64;
+    mod i73;
     mod is_palindrome_125;
     mod l11;
     mod l167;
@@ -74,6 +79,14 @@ mod data {
 }
 
 fn main() {
-    let result = Solution::max_profit(vec![1, 2, 3, 1, 1, 3]);
+    let result = Solution::find_substring(
+        String::from("wordgoodgoodgoodbestword"),
+        vec![
+            String::from("word"),
+            String::from("good"),
+            String::from("best"),
+            String::from("good"),
+        ],
+    );
     println!("{:?}", result);
 }
