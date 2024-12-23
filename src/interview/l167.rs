@@ -37,7 +37,7 @@
 use crate::Solution;
 
 impl Solution {
-    pub fn two_sum(numbers: Vec<i32>, target: i32) -> Vec<i32> {
+    pub fn two_sum2(numbers: Vec<i32>, target: i32) -> Vec<i32> {
         let mut iter = numbers.iter();
         let mut result: Vec<i32> = vec![1, numbers.len() as i32];
 

@@ -11,5 +11,5 @@
     "./Cargo.toml",
     "./Cargo.toml"
   ],
-  "cSpell.words": ["nums"]
+  "cSpell.words": ["nums", "strs"]
 }
