@@ -18,11 +18,13 @@ mod interview {
     mod array9;
     mod db70;
     mod i1;
+    mod i125;
     mod i13;
     mod i134;
     mod i135;
     mod i14;
     mod i151;
+    mod i202;
     mod i205;
     mod i289;
     mod i290;
@@ -35,7 +37,6 @@ mod interview {
     mod i54;
     mod i58;
     mod i73;
-    mod is_palindrome_125;
     mod l11;
     mod l167;
     mod l283;
