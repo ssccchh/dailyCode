@@ -7,6 +7,7 @@ mod interview {
     mod i11;
     mod i121;
     mod i125;
+    mod i128;
     mod i13;
     mod i134;
     mod i135;
@@ -19,6 +20,7 @@ mod interview {
     mod i202;
     mod i205;
     mod i209;
+    mod i228;
     mod i238;
     mod i242;
     mod i26;
@@ -38,6 +40,7 @@ mod interview {
     mod i49;
     mod i54;
     mod i55;
+    mod i56;
     mod i58;
     mod i70;
     mod i73;
@@ -86,14 +89,6 @@ mod data {
 }
 
 fn main() {
-    let result = Solution::find_substring(
-        String::from("wordgoodgoodgoodbestword"),
-        vec![
-            String::from("word"),
-            String::from("good"),
-            String::from("best"),
-            String::from("good"),
-        ],
-    );
+    let result = Solution::summary_ranges(vec![0, 1, 2, 4, 5, 7]);
     println!("{:?}", result);
 }
