@@ -1,4 +1,18 @@
 pub struct Solution {}
+
+#[derive(PartialEq, Eq, Clone, Debug)]
+pub struct ListNode {
+    pub val: i32,
+    pub next: Option<Box<ListNode>>,
+}
+
+impl ListNode {
+    #[inline]
+    fn new(val: i32) -> Self {
+        ListNode { next: None, val }
+    }
+}
+
 mod list_node {
     mod l19;
 }
@@ -14,12 +28,16 @@ mod interview {
     mod i14;
     mod i15;
     mod i151;
+    mod i155;
     mod i167;
     mod i169;
     mod i189;
+    mod i2;
+    mod i20;
     mod i202;
     mod i205;
     mod i209;
+    mod i21;
     mod i228;
     mod i238;
     mod i242;
@@ -45,9 +63,11 @@ mod interview {
     mod i57;
     mod i58;
     mod i70;
+    mod i71;
     mod i73;
     mod i80;
     mod i88;
+    mod i92;
 }
 
 mod search {
