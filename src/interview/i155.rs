@@ -34,6 +34,11 @@ impl MinStack {
 
 impl Solution {
     pub fn run155() {
-        MinStack::new();
+        let mut stack = MinStack::new();
+        stack.push(1);
+        stack.push(2);
+        stack.pop();
+        let _ = stack.top();
+        let _ = stack.get_min();
     }
 }

@@ -1,3 +1,5 @@
+use std::{cell::RefCell, rc::Rc};
+
 pub struct Solution {}
 
 #[derive(PartialEq, Eq, Clone, Debug)]
@@ -13,11 +15,32 @@ impl ListNode {
     }
 }
 
+#[derive(Debug, PartialEq, Eq)]
+pub struct TreeNode {
+    pub val: i32,
+    pub left: Option<Rc<RefCell<TreeNode>>>,
+    pub right: Option<Rc<RefCell<TreeNode>>>,
+}
+
+impl TreeNode {
+    #[inline]
+    pub fn new(val: i32) -> Self {
+        TreeNode {
+            val,
+            left: None,
+            right: None,
+        }
+    }
+}
+
 mod list_node {
     mod l19;
 }
 mod interview {
     mod i1;
+    mod i100;
+    mod i101;
+    mod i104;
     mod i11;
     mod i121;
     mod i125;
@@ -38,6 +61,7 @@ mod interview {
     mod i205;
     mod i209;
     mod i21;
+    mod i226;
     mod i228;
     mod i238;
     mod i242;
